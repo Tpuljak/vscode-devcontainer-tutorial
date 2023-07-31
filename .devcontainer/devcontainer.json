@@ -3,11 +3,20 @@
     "dockerComposeFile": "docker-compose.yml",
     "service": "app",
     "workspaceFolder": "/workspace",
-    "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash"
-    },
     "features": {
-		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
 	},
-    "extensions": []
+    "customizations": {
+        "extensions": [],
+        "settings": {
+            "terminal.integrated.shell.linux": "/bin/bash"
+        },
+        "codespaces": {
+            "openFiles": [
+            "README.md",
+            "scripts/tsconfig.json",
+            "docs/main/CODING_STANDARDS.md"
+            ]
+        }
+    }
 }

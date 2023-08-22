@@ -18,5 +18,8 @@
             "docs/main/CODING_STANDARDS.md"
             ]
         }
+    },
+    "containerEnv": {
+        "test": "$test_env"
     }
 }

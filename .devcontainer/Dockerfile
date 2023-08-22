@@ -36,6 +36,8 @@ RUN groupadd --gid $USER_GID $USERNAME \
 
 RUN echo "vscode ALL=(root) NOPASSWD:ALL" > /etc/sudoers.d/vscode
 
+RUN echo $test > ~/.testenv
+
 ENV DEBIAN_FRONTEND=dialog
 
 USER $USERNAME

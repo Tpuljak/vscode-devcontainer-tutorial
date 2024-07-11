@@ -1,13 +1,15 @@
 {
     "name": "Node.js",
-    "dockerComposeFile123": "docker-compose.yml",
+    "dockerComposeFile": "docker-compose.yml",
     "service": "app",
     "workspaceFolder": "/workspace",
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker:2": {}
 	},
     "customizations": {
-        "extensions": [],
+        "extensions": [
+            "streetsidesoftware.code-spell-checker"
+        ],
         "settings": {
             "terminal.integrated.shell.linux": "/bin/bash"
         },

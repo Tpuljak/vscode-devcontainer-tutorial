@@ -23,5 +23,6 @@
     },
     "containerEnv": {
         "test": "$test_env"
-    }
+    },
+    "remoteUser": "vscode"
 }

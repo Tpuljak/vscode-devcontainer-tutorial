@@ -21,6 +21,8 @@
             ]
         }
     },
+    "postStartCommand": "touch post-start.txt",
+    "postAttachCommand": "touch post-attach.txt",
     "containerEnv": {
         "test": "$test_env"
     },
